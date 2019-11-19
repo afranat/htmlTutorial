@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/w3.css">
+    <meta charset="UTF-8">
+    <title>Výuka HTML</title>
+    <script src="js/jQuery.js"></script>
+</head>
+<body class="w3-container">
+<div class="w3-container w3-light-grey w3-round-large w3-margin"><h1 class="">
+    Úloha 3.: Vyznač v referátu vědcovi objevy
+</h1>
+    <div class="w3-margin-bottom">
+        <i>Vyznačení provedeš tím, že jejich názvy přebarvíš na zeleno.
+        </i>
+    </div>
+</div>
+
+<div class="w3-container w3-twothird"><!--
+********************************************
+CVIČENÍ kód k úpravě ***********************
+********************************************
+-->
+    <h1>Albert Einstein</h1>
+    <img src="pic/Albert_Einstein.jpg" alt="Albert Einstein" style="width:150px; float: left; margin:24px">
+    <p>Albert Einstein (14. března 1879 Ulm, Německo – 18. dubna 1955 Princeton, New Jersey, USA) byl teoretický fyzik,
+        jeden z nejvýznamnějších vědců všech dob. Často je označován za největšího vědce 20. století, případně spolu s
+        Newtonem za nejvýznamnějšího fyzika vůbec. Mezi jeho příspěvky fyzice patří <span style="">speciální teorie relativity</span> (1905),
+        myšlenka kvantování elektromagnetického pole a vysvětlení fotoefektu (1905), vysvětlení Brownova pohybu (1905) a
+        snad nejvíce obecná teorie relativity (1915), která doposud nejlépe popisuje vesmír ve velkých měřítkách.</p>
+
+    <p>Einstein se podílel i na statistické fyzice a kvantové statistice (Boseho-Einsteinovo rozdělení), diskusi o
+        interpretaci kvantové mechaniky (diskuse s Bohrem, EPR paradox). S Leó Szilárdem vynalezli nový typ
+        chladničky.</p>
+
+    <p><b>V roce 1921 byl Einstein oceněn Nobelovou cenou za fyziku</b> za „vysvětlení fotoefektu a za zásluhy o teoretickou
+        fyziku“. Velmi významné byly ovšem již jeho další tři práce z roku 1905, ale v prvé řadě Einsteinova obecná
+        teorie
+        relativity z roku 1915, v době udělení ceny ještě nedoceněná.</p>
+
+    <p>Poté, co zformuloval obecnou teorii relativity, se stal známým po celém světě, což je pro vědce nevídaný úspěch.
+        V
+        pozdějších letech jeho sláva zastínila ostatní vědce a Einstein se stal synonymem pro člověka s velmi vysokou
+        inteligencí nebo zkrátka génia. Jeho tvář se stala jednou z nejznámějších na celém světě. V roce 1999 ho časopis
+        Time vybral jako Osobnost století.[2] Jeho popularita často vedla k používání jeho jména v reklamách a obchodu a
+        dokonce i k registraci obchodní známky Albert Einstein.</p>
+
+    <i>Zdroj: <a href="https://cs.wikipedia.org/wiki/Albert_Einstein">https://cs.wikipedia.org/wiki/Albert_Einstein</a></i>
+
+    <!--
+    ********************************************
+    CVIČENÍ kód k úpravě ***********************
+    ********************************************
+     -->
+    <div id="test" class="w3-container w3-border-green w3-padding w3-round-large w3-margin-top ">
+        <h2>Test</h2>
+        <div menable="y" id="question0" class="w3-container w3-light-grey w3-round-large w3-margin w3-padding"><h4>Jak se jmenuje inline blok DIV nebo SPAN?</h4>
+            <input id="input0" type="text" correct="span SPAN" placeholder="Odpověď 1"></div>
+        <div menable="y" id="question1" class="w3-container w3-light-grey w3-round-large w3-margin w3-padding"><h4>Jak se jmenuje blokový blok DIV nebo SPAN?</h4>
+            <input id="input1" type="text" correct="div DIV" placeholder="Odpověď 2"></div>
+        <div menable="y" id="question2" class="w3-container w3-light-grey w3-round-large w3-margin w3-padding"><h4>Jak se jmenuje CSS příkaz pro zabarvení textu?</h4>
+            <input id="input2" type="text" correct="color COLOR" placeholder="Odpověď 3"></div>
+        <div menable="y" id="question3" class="w3-container w3-light-grey w3-round-large w3-margin w3-padding"><h4>Jak zní celý příkaz, který zabarví text v bloku na červeno?</h4>
+            <input id="input3" type="text" correct="color:red; color: red; color:red color: red" placeholder="Odpověď 4"></div>
+        <div menable="n" id="question4" class="w3-container w3-light-grey w3-round-large w3-margin w3-padding"><h4>Jak se nazývá CSS příkaz pro nastevení šířky obrázku?</h4>
+            <input id="input4" type="text" correct="width" placeholder="Odpověď 5"></div>
+        <div menable="n" id="question5" class="w3-container w3-light-grey w3-round-large w3-margin w3-padding"><h4>Jak se nazývá CSS příkaz pro nastevení výšky obrázku?</h4>
+            <input id="input5" type="text" correct="height" placeholder="Odpověď 6"></div>
+        <div menable="n" id="question6" class="w3-container w3-light-grey w3-round-large w3-margin w3-padding"><h4>Jak zní celý příkaz, který nastaví šířku obrázku na 500px?</h4>
+            <input id="input6" type="text" correct="width:500px; width: 500px; width:500px width: 500px" placeholder="Odpověď 7"></div>
+        <div menable="n" id="question7" class="w3-container w3-light-grey w3-round-large w3-margin w3-padding"><h4>Jak se nazývá CSS příkaz pro nastevení odsazení zvenku?</h4>
+            <input id="input7" type="text" correct="margin" placeholder="Odpověď 8"></div>
+        <button id="submit" class="w3-button w3-light-grey">Odpověďět</button>
+    </div>
+</div>
+<div class="w3-container w3-third w3-card-2 w3-round-large w3-light-grey w3-padding ">
+    <h2>
+        Nápověda pro téma <b>FORMÁTOVÁNÍ TEXTU</b>
+    </h2>
+    <div class="w3-container w3-card-2 w3-round-large w3-blue w3-padding w3-margin-bottom">
+        <p>Chceme-li označit kousek textu v odstavci, můžeme to udělat pomocí inline bloku SPAN. Ten pak naformátujeme.</p>
+        <a href="https://www.w3schools.com/html/html_blocks.asp" class="w3-button w3-black w3-margin" target="_blank">Bloky DIV a SPAN</a></div>
+    <h3>dvojí způsob formátování</h3>
+    <div class="w3-container w3-card-2 w3-round-large w3-blue w3-padding w3-margin-bottom">
+        <h4>atribut style="..." a CSS příkaz</h4>
+        <p>Aneb vzít to od kořenů. Ke každému HTML elementu můžeme přidat atribut style="...". V něm můžeme definovat různé vlastnosti, které má mít.</p>
+        <a href="https://www.w3schools.com/html/html_css.asp" class="w3-button w3-black w3-margin" target="_blank">atribut STYLE</a>
+        <a href="https://www.jakpsatweb.cz/css/css-vlastnosti-hodnoty-prehled.html" class="w3-button w3-black w3-margin" target="_blank">CSS všecky příkazy</a>
+    <a href="https://www.w3schools.com/css/css_text.asp" class="w3-button w3-black w3-margin" target="_blank">CSS barva</a></div>
+    <div class="w3-container w3-card-2 w3-round-large w3-blue w3-padding w3-margin-bottom">
+        <h4>atribut class="..." a knihovna W3.CSS</h4>
+        <p>Tento postup využívá zjednodušení v podobě předchystané knihovny stylů, která je postavená na CSS příkazech. Budeme se jí věnovat v dalších úlohách.</p>
+        <a href="https://www.w3schools.com/w3css/default.asp" class="w3-button w3-black w3-margin" target="_blank">W3.CSS</a>
+        <a href="https://www.w3schools.com/w3css/w3css_colors.asp" class="w3-button w3-black w3-margin" target="_blank">W3.CSS barva</a></div>
+
+
+    <h4>W3CSchool</h4> &nbsp; <a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a>
+    <h4>HTML</h4> &nbsp; <a href="https://www.w3schools.com/html/default.asp" target="_blank">https://www.w3schools.com/html/default.asp</a>
+    <h4>CSS</h4> &nbsp; <a href="https://www.w3schools.com/css/default.asp" target="_blank">https://www.w3schools.com/css/default.asp</a>
+    <h4>W3.CSS</h4> &nbsp; <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">https://www.w3schools.com/w3css/default.asp</a>
+
+    <a href="task3_res.html" class="w3-button w3-black w3-margin" target="_blank">UKÁZAT ŘEŠENÍ</a>
+</div>
+<script src="js/quiz.js"></script>
+</body>
+</html>

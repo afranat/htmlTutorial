@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/w3.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Výuka HTML</title>
+    <script src="js/jQuery.js"></script>
+</head>
+<body class="w3-container">
+<div class="w3-container w3-light-grey w3-round-large w3-margin"><h1 class="">
+    Úloha B.: Jednotlivým tagům nastav vlastnosti = atributy.
+</h1>
+    <div class="w3-margin-bottom">
+        <i>Doplňte atributy předchystaným tagům.
+        </i>
+    </div>
+</div>
+
+<div class="w3-container w3-twothird"><!--
+********************************************
+CVIČENÍ kód k úpravě ***********************
+********************************************
+-->
+
+    <a href="http://zsbrok.cz" >Odkaz na zsbrok.cz s atributem href</a>
+    <a href="http://google.com">Odkaz na Google</a>
+
+    <p title="Titulek pro tento odstavec.">Toto je odstavec s titulkem. Titulek se objeví, když na odstavec najedete myší.</p>
+    <p title="Titulek.">Další odstavec s titulkem.</p>
+
+    Zatímco odkazy a paragrafy jsou tag <b>PÁROVÝ</b> = má začátek a konec, následující tagy jsou <b>nepárové</b>.
+
+    <img src="http://www.art-art-art.cz/system/files/imagecache/product_full/sede%20kotatko.jpg" alt="Obrázek šedého koťátka">
+    <img src="http://www.art-art-art.cz/system/files/imagecache/product_full/sede%20kotatko.jpg" width="100px" alt="Obrázek šedého koťátka s nastavenou šířkou width 100px">
+    <input type="text" name="first" placeholder="napište své křestní jméno"> <!-- Těmito závorkami je vymezená poznámka, která se neprojeví na webové stránce. input nastavíme jako type text a pojmenujeme first, předvyplníme pomocí atributu placeholder napiš své křesntní jméno-->
+    <input type="submit" value="Odeslat"> <!--do type napiš submit, do value Odeslat-->
+ <!--
+********************************************
+CVIČENÍ kód k úpravě ***********************
+********************************************
+-->
+    <div class="w3-container w3-border-green w3-padding w3-round-large w3-margin-top w3-hide" id="test">
+        <h2>Test</h2>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question0" menable="y"><h4>Jak se jmenuje inline blok DIV nebo SPAN?</h4>
+            <input correct="span SPAN" id="input0" placeholder="Odpověď 1" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question1" menable="y"><h4>Jak se jmenuje blokový blok DIV nebo SPAN?</h4>
+            <input correct="div DIV" id="input1" placeholder="Odpověď 2" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question2" menable="y"><h4>Jak se jmenuje CSS příkaz pro zabarvení textu?</h4>
+            <input correct="color COLOR" id="input2" placeholder="Odpověď 3" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question3" menable="y"><h4>Jak zní celý příkaz, který zabarví text v bloku na červeno?</h4>
+            <input correct="color:red; color: red; color:red color: red" id="input3" placeholder="Odpověď 4" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question4" menable="n"><h4>Jak se nazývá CSS příkaz pro nastevení šířky obrázku?</h4>
+            <input correct="width" id="input4" placeholder="Odpověď 5" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question5" menable="n"><h4>Jak se nazývá CSS příkaz pro nastevení výšky obrázku?</h4>
+            <input correct="height" id="input5" placeholder="Odpověď 6" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question6" menable="n"><h4>Jak zní celý příkaz, který nastaví šířku obrázku na 500px?</h4>
+            <input correct="width:500px; width: 500px; width:500px width: 500px" id="input6" placeholder="Odpověď 7" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question7" menable="n"><h4>Jak se nazývá CSS příkaz pro nastevení odsazení zvenku?</h4>
+            <input correct="margin" id="input7" placeholder="Odpověď 8" type="text"></div>
+        <button class="w3-button w3-light-grey" id="submit">Odpověďět</button>
+    </div>
+</div>
+<div class="w3-container w3-third w3-card-2 w3-round-large w3-light-grey w3-padding ">
+    <h2>
+        Nápověda pro téma <b>ATRIBUTY = vlastnosti</b>
+    </h2>
+    <div class="w3-container w3-card-2 w3-round-large w3-blue w3-padding"><p>Obrázek má tag img, jedná se o nepárový tag, takže za ním nemusí být patka &lt;/img &gt;. Jeho povinný atribut je src="...", kde se nachází odkaz na obrázek. Pro formátování doporučujeme použít atribut style, kam vkládáme tzv. CSS formátovací příkazy. Pro šířku je to příkaz width, pro zarovnání float a pro odsazení margin.</p>
+        <a href="https://www.w3schools.com/html/html_links.asp" class="w3-button w3-black w3-margin" target="_blank">Odkaz = a TAG</a>
+        <a href="https://www.w3schools.com/html/html_images.asp" class="w3-button w3-black w3-margin" target="_blank">Obrázek = img TAG</a>
+        <a href="https://www.w3schools.com/html/html_form_elements.asp" class="w3-button w3-black w3-margin" target="_blank">Formulářový prvek = input TAG</a>
+    <h4>W3CSchool</h4> &nbsp; <a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a>
+    <h4>HTML</h4> &nbsp; <a href="https://www.w3schools.com/html/default.asp" target="_blank">https://www.w3schools.com/html/default.asp</a>
+    <a href="taskB_res.html" class="w3-button w3-black w3-margin" target="_blank">UKÁZAT ŘEŠENÍ</a>
+</div>
+<script src="js/quiz.js"></script>
+</body>
+</html>

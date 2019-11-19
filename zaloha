@@ -1,0 +1,5 @@
+if ((this).attr("correct").search((this.value()))!=-1) {
+                $("div#question"+index.toString()).removeClass("w3-red").removeClass("w3-green").addClass("w3-green");
+            } else {
+                $("div#question"+index.toString()).removeClass("w3-red").removeClass("w3-green").addClass("w3-red");
+            }

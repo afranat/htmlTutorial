@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/w3.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Výuka HTML</title>
+    <script src="js/jQuery.js"></script>
+</head>
+<body class="w3-container">
+<div class="w3-container w3-light-grey w3-round-large w3-margin"><h1 class="">
+    Úloha C.: Univerzální atribut style II. část
+</h1>
+    <div class="w3-margin-bottom">
+        <i><span style="background-color: yellow">U sledovaného divu</span> měň hodnoty marginu a paddingu a sleduj, co se děje po refreši.
+        </i>
+    </div>
+</div>
+
+<div class="w3-container w3-twothird"><!--
+********************************************
+CVIČENÍ kód k úpravě ***********************
+********************************************
+-->
+    <!--styl color:...;-->
+    <div style="background-color: green;height: auto;">
+        <p>Toto je obal.</p>
+        <!--PRACUJI S TÍMTO DIVEM-->
+        <div style="background-color: yellow; margin: 100px 70px 40px 10px; padding:40px 30px 20px 10px;">
+            Toto je sledovaný div.   Toto je sledovaný div.   Toto je sledovaný div.   Toto je sledovaný div.   Toto je sledovaný div.   Toto je sledovaný div.   Toto je sledovaný div.
+        </div>
+        <p>toto je obal</p>
+    </div>
+
+
+
+
+
+
+
+
+ <!--
+********************************************
+CVIČENÍ kód k úpravě ***********************
+********************************************
+-->
+    <div class="w3-container w3-border-green w3-padding w3-round-large w3-margin-top w3-hide" id="test">
+        <h2>Test</h2>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question0" menable="y"><h4>Jak se jmenuje inline blok DIV nebo SPAN?</h4>
+            <input correct="span SPAN" id="input0" placeholder="Odpověď 1" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question1" menable="y"><h4>Jak se jmenuje blokový blok DIV nebo SPAN?</h4>
+            <input correct="div DIV" id="input1" placeholder="Odpověď 2" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question2" menable="y"><h4>Jak se jmenuje CSS příkaz pro zabarvení textu?</h4>
+            <input correct="color COLOR" id="input2" placeholder="Odpověď 3" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question3" menable="y"><h4>Jak zní celý příkaz, který zabarví text v bloku na červeno?</h4>
+            <input correct="color:red; color: red; color:red color: red" id="input3" placeholder="Odpověď 4" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question4" menable="n"><h4>Jak se nazývá CSS příkaz pro nastevení šířky obrázku?</h4>
+            <input correct="width" id="input4" placeholder="Odpověď 5" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question5" menable="n"><h4>Jak se nazývá CSS příkaz pro nastevení výšky obrázku?</h4>
+            <input correct="height" id="input5" placeholder="Odpověď 6" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question6" menable="n"><h4>Jak zní celý příkaz, který nastaví šířku obrázku na 500px?</h4>
+            <input correct="width:500px; width: 500px; width:500px width: 500px" id="input6" placeholder="Odpověď 7" type="text"></div>
+        <div class="w3-container w3-light-grey w3-round-large w3-margin w3-padding" id="question7" menable="n"><h4>Jak se nazývá CSS příkaz pro nastevení odsazení zvenku?</h4>
+            <input correct="margin" id="input7" placeholder="Odpověď 8" type="text"></div>
+        <button class="w3-button w3-light-grey" id="submit">Odpověďět</button>
+    </div>
+</div>
+<div class="w3-container w3-third w3-card-2 w3-round-large w3-light-grey w3-padding ">
+    <h2>
+        Nápověda pro téma <b>ATRIBUT style - odsazení</b>
+    </h2>
+    <div class="w3-container w3-card-2 w3-round-large w3-blue w3-padding">
+        <p>Pro odsazení se používají v CSS dva styly margin (vnější odstup = ať se na mě nic z okolí nelepí) a padding (vnitřní odstup = ať se nic ve mě nedotýká mojich okrajů).</p>
+        <a href="https://www.w3schools.com/css/css_margin.asp" class="w3-button w3-black w3-margin" target="_blank">MARGIN</a>
+        <a href="https://www.w3schools.com/css/css_padding.asp" class="w3-button w3-black w3-margin" target="_blank">PADDING</a>
+
+    <h4>W3CSchool</h4> &nbsp; <a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a>
+    <h4>HTML</h4> &nbsp; <a href="https://www.w3schools.com/html/default.asp" target="_blank">https://www.w3schools.com/html/default.asp</a>
+    <a href="taskD_res.html" class="w3-button w3-black w3-margin" target="_blank">UKÁZAT ŘEŠENÍ</a>
+</div>
+<script src="js/quiz.js"></script>
+</body>
+</html>
